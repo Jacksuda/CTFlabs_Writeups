@@ -43,7 +43,7 @@ This Javascript shows validation method without any obfuscation techniques. This
 
 Now we'll attempt to bypass the login page. As we do not have much info, the easiest technique to get everything going is to bruteforce (again), but with a twist. We'll attempt do SQLi, trying to inject our code to bypass password checking. One of the most basic way to do this is to inject the code in the way that comments out the original php code, this can be done by using # which will comments everything out after it for one line.
 
-So we'll be using OWASP ZAP to bruteforce the username, while using # to comment out password check.
+So we'll be using OWASP ZAP to bruteforce the username, while using # to try commenting out password check.
 
 <img src="Zap1.png">
 
