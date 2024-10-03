@@ -19,7 +19,8 @@ From version scan we gather that it is Apache server version 2.4.38. With versio
 
 We cannot find anything that will help in searchsploit.
 
-For the next part, let's explore the webpage. We can try two of the most popular web directories to see that /index.php or /admin.php exist.
+For the next part, let's explore the webpage. 
+We can check two of the most popular web directories /index.php and /admin.php if it exist or not.
 
 <img src="LoginPage.png">
 <img src="Admin.png">
