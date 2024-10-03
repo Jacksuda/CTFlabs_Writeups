@@ -1,4 +1,4 @@
-# My CTF labs Writeup
+# Welcome
 This is a collection of labs that I had done in the past. All of the answers are censored as I believe this will not help anyone, but be detrimental to learning progress.
 Currently, all of the labs are from HTB; but I'm looking forward to expand my scope to other websites in the future.
 
