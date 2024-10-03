@@ -1,6 +1,7 @@
 # Appointment Writeup
 <img src="Machine.JPG">
 TAGS: Databases, Apache, MariaDB, PHP, SQL, Reconnaissance, SQL Injection
+
 ------------------------------------------------------------------------------------------------
 Starting with first step of reconnaissance, port scanning. 
 Basic scans will get this result (To lower risk of detection, passive scan -sS flag can also be used):
