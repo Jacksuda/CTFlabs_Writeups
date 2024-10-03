@@ -45,10 +45,13 @@ Now we'll attempt to bypass the login page. As we do not have much info, the eas
 So we'll be using OWASP ZAP to bruteforce the username, while using # to comment out password check.
 
 <img src="Zap1.png">
+
 (%27=', %23=#); (Wordlist: Seclist/Usernames)
 
 <img src="Zap2.png">
+
 We can see from "Size Resp." that 'test' and 'root' both usernames exist. We can try logging in.
 
 <img src="flag.png">
+
 Congratulations!! We bypassed password checking inside the webpage, and got the flag.
