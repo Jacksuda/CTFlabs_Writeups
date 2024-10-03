@@ -13,7 +13,7 @@ Now to confirm, version scan using nmap -sV:
 
 <img src="Nmap_2.png">
 
-From version scan we gather that it is Apache server version 2.4.38. With version specified we can use this information to search for vulnerability (for example: using searchsploit)
+From version scan we gather that it is Apache server version 2.4.38. With version specified, we can use this information to search for vulnerability (for example: using searchsploit)
 
 <img src="Searchsploit.png">
 
