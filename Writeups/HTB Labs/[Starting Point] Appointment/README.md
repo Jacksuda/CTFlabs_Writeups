@@ -27,7 +27,7 @@ We can check two of the most popular web directories /index.php and /admin.php i
 
 In landing page of /index.php, it presents us with log-in form.
 
-With this information from only log-in page, this is not enough to plan our approach. As we can see there's no o links other "Forgot Password" which doesn't link to anywhere, and Login button. With this we'll need perform brute-force directory enumeration, to gather little more information. This can be done many in ways (Gobuster, Burpsuit, OWASP ZAP) but for the sake of simplicity, we'll be using ffuf. (Wordlist is from Seclist)
+With this information from only log-in page, this is not enough to plan our approach. As we can see there's no links other "Forgot Password" which doesn't link to anywhere, and Login button. With this we'll need perform brute-force directory enumeration, to gather little more information. This can be done many in ways (Gobuster, Burpsuit, OWASP ZAP) but for the sake of simplicity, we'll be using ffuf. (Wordlist is from Seclist)
 ```
 ffuf -w /usr/share/dirbuster/wordlists/directory-list-2.3-small.txt -u http://10.129.20.197/FUZZ -t 5
 ```
